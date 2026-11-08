@@ -143,7 +143,7 @@ while run:
         for m in monsters:
           m.kill()
 
-        delay(3000)
+         "firstdelay(3000)
         for i in range(1, 6):
             monster = Enemy(img_enemy, randint(80, win_width-80), -40, 80, 50, randint(1, 5))
             monsters.add(monster)      
